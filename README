@@ -1,1 +1,3 @@
-This is a test of git and github.
+The method that I am planning on using for working with scripts is to use scp to overwrite the scripts folder whenever we wish to update the website. This way the whole scripts folder will be present on the git hub repo and we can upload it at will.
+
+-Sam
