@@ -7,7 +7,7 @@ from django.db import models
 class User(models.Model):
     userName = models.CharField(max_length=200)
     userEmail = models.EmailField(max_length=75)
-    userId = models.CharField(max_length=200)
+    userID = models.CharField(max_length=200)
     #UserId stores each users unique id at the moment it is the phones id
 
 #Filter: This models is used to store the filter name, IE each filter will have a name and an associated list of keywords that are specified by the user. This model stores the relationship to a user and the filter name along with the filter keywords in CSV format.
